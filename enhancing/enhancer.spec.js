@@ -25,7 +25,7 @@ describe("test the enhacer module", () => {
 
             const repairedItem = repair(item)
             expect(repairedItem.durability).toBe(100)
-            expect(repairedItem).toEqual(itemTwo)
+            expect(repairedItem).toEqual(itemTwo) 
         })
     })
     describe("testing the success method", () => {
